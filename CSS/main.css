@@ -70,13 +70,6 @@ img.gameicon{
     color: #ffffff;
 }
 
-a{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 750;
-    text-decoration: none;
-    color: #ffffff;
-}
-
 .button:hover{
     background-color: #2b2b2b;
 }
