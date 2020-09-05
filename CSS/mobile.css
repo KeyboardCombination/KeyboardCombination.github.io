@@ -6,7 +6,7 @@ body {
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     text-align: center;
     margin-left: auto;
@@ -14,7 +14,7 @@ p {
 }
 
 p.paragraph{
-    width: 50%;
+    width: 75%;
 }
 
 iframe{
@@ -26,7 +26,7 @@ iframe{
 }
 
 p.bottom{
-    font-size: 10px;
+    font-size: 20px;
     bottom: 0%;
     position: fixed;
 }
@@ -34,6 +34,7 @@ p.bottom{
 h1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-size: 48px;
     color: #ffffff;
 }
 
@@ -56,10 +57,11 @@ img.gameicon{
 .button { 
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    font-size: 32px;
     background-color: #363636;
     transition: background-color 0.25s;
     display: block;
-    width: 50%;
+    width: 32%;
     text-align: center;
     margin-bottom: 10px;
     margin-left: auto;
