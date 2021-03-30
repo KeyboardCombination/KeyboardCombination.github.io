@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
-    background-color: #1b1b1b;
-}
+body {background-color: #212121;}
 
 p {
     font-family: 'Roboto', sans-serif;
@@ -14,15 +12,25 @@ p {
 }
 
 p.paragraph{
-    width: 30%;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    size: 100px;
 }
 
 iframe{
-    border-radius: 10px;
-    display: block;
+    border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.5);
+}
+
+.margin{
+    margin-left: 24%;
+    margin-right: 24%;
 }
 
 p.bottom{
@@ -33,51 +41,12 @@ p.bottom{
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
     color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
-    max-width: 20%;
-}
-
-img.center{
-    display: block;
-    margin: 0 auto;
-}
-
-img.gameicon{
-    display: block;
-    margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.5);
-}
-
-.button { 
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    background-color: #363636;
-    transition: background-color 0.25s;
-    display: block;
-    width: 10%;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px black;
-    padding: 14px 25px;
-    color: #ffffff;
-}
-
-.button:hover{
-    background-color: #2b2b2b;
-}
-
-.vertical-list{
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: none;
+    max-width: 24%;
 }
